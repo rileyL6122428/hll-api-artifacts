@@ -13,4 +13,4 @@ mv ffprobe server-executables/ffprobe
 
 sudo yum install java-1.8.0-openjdk-devel
 cd server-executables
-java -cp hll-api-0.0.1-SNAPSHOT.jar:/home/ec2-user/server-executables/libs/* -Dloader.main=com.example.hllapi.HllApiApplication org.springframework.boot.loader.PropertiesLauncher
+java -cp hll-api-0.0.1-SNAPSHOT.jar:/home/ec2-user/server-executables/libs/* -Dserver.port=80 -Dloader.main=com.example.hllapi.HllApiApplication org.springframework.boot.loader.PropertiesLauncher
