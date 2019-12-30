@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir server-executables
 mkdir server-executables/libs
 mkdir server-tempfiles
