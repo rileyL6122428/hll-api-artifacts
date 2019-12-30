@@ -1,0 +1,1 @@
+curl -o setup.sh https://raw.githubusercontent.com/rileyL6122428/hll-api-artifacts/master/setup.sh
